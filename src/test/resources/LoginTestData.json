@@ -1,0 +1,13 @@
+{
+  "Login_Details": 
+  {
+   "UserName":"Admin",
+   "Password":"admin123",
+    "Url":"https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index"
+  },
+  "Invalid_Login_Data":{
+      "UserName":"Admin123",
+      "Password":"admin",
+      "Error_Message":"Invalid credentials"
+  }
+}

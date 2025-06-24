@@ -12,6 +12,7 @@ import io.qameta.allure.Allure;
 public class Hooks extends BaseObjects{
 
 	//Tested fork by Felix 
+	//I have changed this line for see conflict....
 	
 	@After
     public void takeScreenshotOnFailure(Scenario scenario) {

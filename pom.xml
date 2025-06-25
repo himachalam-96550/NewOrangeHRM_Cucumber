@@ -13,7 +13,12 @@
       <version>3.11.0</version> <!-- Java 20 compatible -->
     </plugin>
 
-   
+    <plugin>
+      <groupId>io.qameta.allure</groupId>
+      <artifactId>allure-maven</artifactId>
+      <version>2.11.2</version>
+    </plugin>
+    
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>

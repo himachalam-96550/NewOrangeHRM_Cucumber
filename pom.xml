@@ -13,11 +13,16 @@
       <version>3.11.0</version> <!-- Java 20 compatible -->
     </plugin>
 
-    <!-- Maven Surefire Plugin -->
+   
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>
-      <version>3.1.2</version> <!-- Use latest version for Java 20 -->
+      <version>3.1.2</version> <!-- or latest -->
+      <configuration>
+        <includes>
+          <include>**/Runner.java</include>
+        </includes>
+      </configuration>
     </plugin>
   </plugins>
 </build>

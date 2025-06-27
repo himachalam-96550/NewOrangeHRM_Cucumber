@@ -38,7 +38,7 @@ public class DropDownHelper extends DriverFactory{
 				  
 				  option.click();
 			  }
-			}
+		}
 
 	}
 	

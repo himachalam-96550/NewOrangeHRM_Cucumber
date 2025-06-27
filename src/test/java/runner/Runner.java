@@ -15,5 +15,7 @@ plugin = {"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},
 dryRun = !true
 )
 public class Runner {
-
+	
+//allure generate --single-file allure-results
+	
 }
